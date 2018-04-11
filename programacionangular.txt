@@ -1,0 +1,36 @@
+control de versiones
+git version
+
+git add . para subir todo 
+
+
+configuracion
+git configuration --global user.name "Monica chacha"
+git configuration --global user.email "mchacha.fis@unach.edu.ec"
+
+añadimos el archivo
+git add titulo.html
+git init //inicializo mi repositorio en la derccion de la carpeta
+git status
+
+doy el nombre del comentario
+git commit -m "2do commit" //par ausbir cambios
+
+subo la linea con el archivo cambiado
+git log --oneline //para versi se subio el cmabio 
+
+
+borro la linea
+git checkout 157947b
+
+restaurar
+git checkout 8bd0afd
+
+
+
+para que se suba ala nube
+desde git copiamos la direccion k esta en git 
+git remote add origin https://github.com/estefaniachacha/practica_git.git
+
+para k se suba
+git push -u origin master
